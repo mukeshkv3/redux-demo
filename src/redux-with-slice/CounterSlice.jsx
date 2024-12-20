@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    value: 0
+    value: 0, skills:['First Value']
 }
 
 const CounterSlice = createSlice({
@@ -13,10 +13,13 @@ const CounterSlice = createSlice({
         },
         decrement: (state) => {
             state.value -= 1
+        },
+        addSkill: (state) => {
+            state.skills.push(' React')
         }
     }
 });
 
-export const { increment, decrement } = CounterSlice.actions
+export const { increment, decrement, addSkill } = CounterSlice.actions
 
 export default CounterSlice.reducer
