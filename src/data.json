@@ -1,0 +1,161 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "customerName": "Mukesh",
+      "value": "100"
+    },
+    {
+      "id": "2",
+      "customerName": "Akash G",
+      "value": "2000"
+    },
+    {
+      "id": "3",
+      "customerName": "Praveen",
+      "value": 300
+    },
+    {
+      "id": "6",
+      "customerName": "Raj",
+      "value": "1000"
+    },
+    {
+      "id": "4",
+      "customerName": "Balu",
+      "value": "500"
+    },
+    {
+      "id": "5",
+      "customerName": "Rohit Sharma",
+      "value": "0"
+    },
+    {
+      "id": 0,
+      "customerName": "",
+      "value": 0
+    },
+    {
+      "id": "7",
+      "customerName": "Dhoni",
+      "value": "1000000"
+    }
+  ],
+  "offices": [
+    {
+      "id": 10,
+      "location": "Chennai",
+      "imgRef": "chennai.png"
+    },
+    {
+      "id": 20,
+      "location": "Bangalore",
+      "imgRef": "bangalore.png"
+    },
+    {
+      "id": 30,
+      "location": "Hyderabad",
+      "imgRef": "hyderabad.png"
+    },
+    {
+      "id": 40,
+      "location": "Pune",
+      "imgRef": "pune.png"
+    },
+    {
+      "id": 50,
+      "location": "Mumbai",
+      "imgRef": "mumbai.png"
+    },
+    {
+      "id": 60,
+      "location": "Delhi",
+      "imgRef": "delhi.png"
+    },
+    {
+      "id": 70,
+      "location": "Kolkata",
+      "imgRef": "kolkata.png"
+    },
+    {
+      "id": 80,
+      "location": "Ahmedabad",
+      "imgRef": "ahmedabad.png"
+    },
+    {
+      "id": 90,
+      "location": "Jaipur",
+      "imgRef": "jaipur.png"
+    },
+    {
+      "id": 100,
+      "location": "Lucknow",
+      "imgRef": "lucknow.png"
+    },
+    {
+      "id": 110,
+      "location": "Kanpur",
+      "imgRef": "kanpur.png"
+    },
+    {
+      "id": 120,
+      "location": "Nagpur",
+      "imgRef": "nagpur.png"
+    },
+    {
+      "id": 130,
+      "location": "Indore",
+      "imgRef": "indore.png"
+    },
+    {
+      "id": 140,
+      "location": "Thane",
+      "imgRef": "thane.png"
+    },
+    {
+      "id": 150,
+      "location": "Bhopal",
+      "imgRef": "bhopal.png"
+    },
+    {
+      "id": 160,
+      "location": "Visakhapatnam",
+      "imgRef": "visakhapatnam.png"
+    },
+    {
+      "id": 170,
+      "location": "Patna",
+      "imgRef": "patna.png"
+    },
+    {
+      "id": 180,
+      "location": "Ludhiana",
+      "imgRef": "ludhiana.png"
+    },
+    {
+      "id": 190,
+      "location": "Agra",
+      "imgRef": "agra.png"
+    },
+    {
+      "id": 200,
+      "location": "Nashik",
+      "imgRef": "nashik.png"
+    },
+    {
+      "id": 210,
+      "location": "Ranchi",
+      "imgRef": "ranchi.png"
+    },
+    {
+      "id": 220,
+      "location": "Faridabad",
+      "imgRef": "faridabad.png"
+    },
+    {
+      "id": 230,
+      "location": "Meerut",
+      "imgRef": "Meerut.png"
+    }
+  ]
+}
