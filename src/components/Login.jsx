@@ -17,7 +17,7 @@ const Login = () => {
             console.log('Login successful')
             sessionStorage.setItem('token', 'ksjdcbkscbksdjcbksdjcbn')
             sessionStorage.setItem('isLogged', true)
-            navigate('/show-employee')
+            navigate('/show-employee', { state: {username}})
         } else {
             setError('Invalid username or password')
         }
