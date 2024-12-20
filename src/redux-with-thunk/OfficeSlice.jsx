@@ -7,7 +7,6 @@ const initialState = {
 }
 
 export const getOffices = createAsyncThunk("offices/getOffices", async () => {
-    console.log("getOffices")
     try {
         const response = await axios.get("http://localhost:5050/offices")
         return response.data

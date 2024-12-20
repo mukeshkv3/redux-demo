@@ -31,7 +31,9 @@ const ShowOffice = () => {
                         <tr key={office.id}>
                             <td>{office.id}</td>
                             <td>{office.location}</td>
-                            <td>{office.imgRef}</td>
+                            <td>
+                                <img src={`/src/assets/${office.imgRef}`} alt={office.location} width="100" />
+                            </td>
                         </tr>
                     ))}
                 </tbody>
