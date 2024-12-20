@@ -7,6 +7,8 @@ import { Provider } from 'react-redux'
 import SecondComponent from './SecondComponent'
 import Counter from './redux-with-slice/Counter'
 import store from './redux-with-slice/Store'
+import officeStore from './redux-with-thunk/Store'
+import ShowOffice from './redux-with-thunk/ShowOffice'
 
 function App() {
 
@@ -20,11 +22,14 @@ function App() {
       <Provider store={myStore}>
         <div>
           <FirstComponent />
-          <SecondComponent/>
+          <SecondComponent />
         </div>
       </Provider>
       <Provider store={store}>
         <Counter></Counter>
+      </Provider>
+      <Provider store={officeStore}>
+        <ShowOffice></ShowOffice>
       </Provider>
     </>
   )
