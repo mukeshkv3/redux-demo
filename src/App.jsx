@@ -4,6 +4,9 @@ import { configureStore } from '@reduxjs/toolkit'
 import Reducer from './Reducer'
 import FirstComponent from './FirstComponent'
 import { Provider } from 'react-redux'
+import SecondComponent from './SecondComponent'
+import Counter from './redux-with-slice/Counter'
+import store from './redux-with-slice/Store'
 
 function App() {
 
@@ -17,7 +20,11 @@ function App() {
       <Provider store={myStore}>
         <div>
           <FirstComponent />
+          <SecondComponent/>
         </div>
+      </Provider>
+      <Provider store={store}>
+        <Counter></Counter>
       </Provider>
     </>
   )

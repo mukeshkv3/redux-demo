@@ -1,25 +1,25 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-const FirstComponent = () => {
-
+const SecondComponent = () => {
     const firstName = useSelector(state => state.firstName)
     const secondName = useSelector(state => state.secondName)
-    const dispatch = useDispatch()
-    const handleFirstName = () => {
+
+    const  dispatch = useDispatch()
+    const handleSecondName = () => {
         dispatch({
-            type: 'CHANGE_FIRST_NAME',
+            type: 'CHANGE_SECOND_NAME',
             payload: {
-                firstName: 'Mukesh'
+                secondName: 'Krishnakumar'
             }
         })
     }
   return (
     <div>
         {firstName} {secondName}
-        <button onClick={handleFirstName}>Change First Name</button>
+        <button onClick={handleSecondName}>Change Second Name</button>
     </div>
   )
 }
 
-export default FirstComponent
+export default SecondComponent
