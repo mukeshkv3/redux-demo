@@ -9,6 +9,9 @@ import Counter from './redux-with-slice/Counter'
 import store from './redux-with-slice/Store'
 import officeStore from './redux-with-thunk/Store'
 import ShowOffice from './redux-with-thunk/ShowOffice'
+import Login from './components/Login'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ShowEmployee from './components/ShowEmployee'
 
 function App() {
 
@@ -19,6 +22,7 @@ function App() {
 
   return (
     <>
+      {/* <Login></Login>
       <Provider store={myStore}>
         <div>
           <FirstComponent />
@@ -30,7 +34,13 @@ function App() {
       </Provider>
       <Provider store={officeStore}>
         <ShowOffice></ShowOffice>
-      </Provider>
+      </Provider> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/show-employee" element={<ShowEmployee />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
